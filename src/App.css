@@ -1,0 +1,41 @@
+@font-face {
+  font-family: 'OpenSans';
+  src: url('./fonts/OpenSans-Regular.ttf')
+}
+
+#root {
+  font-family: 'OpenSans';
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-top: 2px solid white;
+  height: 300px;
+  justify-content: flex-end;
+  width: 200px;
+  li {
+    margin: 2px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    display: block;
+  }
+}
+
+input, button {
+  width: 100%;
+  padding: 15px 0;
+  border-radius: 10px;
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
+  outline: none;
+}
